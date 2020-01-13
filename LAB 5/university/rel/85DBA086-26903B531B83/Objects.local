@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="12EA7DFB-C4AE-FA04-4B32-40536EEA390A" name="Course" seqName="seg_0"/>
+   <object objectType="Table" objectID="59434CF7-E9CD-B434-DC24-7CD97DE41C8A" name="Department" seqName="seg_0"/>
+   <object objectType="Table" objectID="F609E6EE-EDEF-4643-BF00-05A0FCE71A66" name="Grade_report" seqName="seg_0"/>
+   <object objectType="Table" objectID="60205291-4AD9-24E6-6223-5118B4DA5282" name="Section" seqName="seg_0"/>
+   <object objectType="Table" objectID="2AB724E0-7BC0-8F71-61F6-F283FE10B8E3" name="Student" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1A2371CF-5982-E129-D5FE-B336ECBE71EC" name="Course_Student_FK" seqName="seg_0" containerID="12EA7DFB-C4AE-FA04-4B32-40536EEA390A" refContainerID="2AB724E0-7BC0-8F71-61F6-F283FE10B8E3"/>
+   <object objectType="FKIndexAssociation" objectID="74EE812B-468B-4618-9423-A24907DCE736" name="Grade_report_Student_FK" seqName="seg_0" containerID="F609E6EE-EDEF-4643-BF00-05A0FCE71A66" refContainerID="2AB724E0-7BC0-8F71-61F6-F283FE10B8E3"/>
+   <object objectType="FKIndexAssociation" objectID="6C7E6042-31EA-2112-5F39-34E5286D8D6A" name="Section_Course_FK" seqName="seg_0" containerID="60205291-4AD9-24E6-6223-5118B4DA5282" refContainerID="12EA7DFB-C4AE-FA04-4B32-40536EEA390A"/>
+   <object objectType="FKIndexAssociation" objectID="C37146A7-6869-F265-51C2-882C9B92B53F" name="Section_Student_FK" seqName="seg_0" containerID="60205291-4AD9-24E6-6223-5118B4DA5282" refContainerID="2AB724E0-7BC0-8F71-61F6-F283FE10B8E3"/>
+   <object objectType="FKIndexAssociation" objectID="3FDF061C-69E4-2FD2-42C6-1A4488BCD140" name="Student_Department_FK" seqName="seg_0" containerID="2AB724E0-7BC0-8F71-61F6-F283FE10B8E3" refContainerID="59434CF7-E9CD-B434-DC24-7CD97DE41C8A"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

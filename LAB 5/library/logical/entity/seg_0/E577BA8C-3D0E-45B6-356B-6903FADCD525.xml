@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E577BA8C-3D0E-45B6-356B-6903FADCD525" name="Patron">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 06:58:42 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="last_name" id="23E2FF59-AC36-B42F-7978-4F85C477CB55">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 06:59:49 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id" id="B20AF8B6-3EB9-973A-6D7B-F9C2038ABE33">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:00:33 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="E58DAA8B-9D0F-6D0B-DC94-13CB047246EE">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:00:51 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="94D5D2B9-9061-D8BA-4A60-FB54685DC102">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:01:31 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1FF7B32-6F61-9FC7-E2CD-2DF48320E2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="AB7AFB81-1FE8-0082-6ABB-B78C3CB6099B">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:01:49 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="4522919D-FCB0-9C46-D63C-8CDD00AB9F8C">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:02:09 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip_code" id="65A280AA-9D92-066A-4A66-E3A7768E7E79">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:03:25 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="3307875E-55D9-2564-4107-31B6E8665BE4">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:03:54 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28121FE6-624F-39C6-ED4C-77FF87E03787" name="Patron PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:06:47 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B20AF8B6-3EB9-973A-6D7B-F9C2038ABE33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59434CF7-E9CD-B434-DC24-7CD97DE41C8A" name="Department">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>656024C3-746E-6466-C3B0-1ED28D326F06</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dep_name" id="09062547-CDBD-1C52-81D4-5D936EE45F49">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>190A614B-9347-B661-52B3-9F68A275F2D0</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_code" id="6BEA6CD0-A78C-9CC7-7239-E90109CDBF2C">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>DBE22FD6-EEB2-4727-C21B-90C4902BA78A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="office_number" id="90DB9294-4A4B-2D3A-75AC-73484BA377EB">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>8898511E-8E8E-1004-E00D-A4C8044C8042</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="office_phone_number" id="441DC1DB-FB73-053E-696C-360D84A52AF8">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>D426A816-04DB-DE33-B234-5D81CB723013</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="college" id="78DD8240-D22B-9D24-AD0E-51D79CD8F6C6">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>91377229-1072-8F02-5389-D3FDE6A0FF30</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E68CE66E-51E2-B329-1D5B-16798643C559" name="Department_PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>BB68EDCC-AA61-5C9D-6491-52025F1EA678</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BEA6CD0-A78C-9CC7-7239-E90109CDBF2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6975A76-0C4E-CC54-8907-E258D2381994" name="Grade_report">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:45:46 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="letter_grade" id="C6FB1D2F-EAEB-718F-8FD3-54A3FE3C517E">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:46:06 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeric_grade" id="092B0611-7E7B-F591-335B-EAAE728EACD5">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:46:06 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>80343CCA-E7DB-A3A2-9119-B0F4FCBAC7E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="section" id="859C11F6-E8BA-0838-5403-2FBC2712A400">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:59:06 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_number" id="8CF77AC0-4473-AE8C-C1CE-54D4B4E83D26">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:00:16 UTC</createdTime>
+<generatorID>C230E314-5FF8-A332-8030-22957AC1CBDE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<referedAttribute>3FEA823D-9EF7-ADA2-1953-7473BAECD010</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

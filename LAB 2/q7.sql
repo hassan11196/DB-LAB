@@ -1,0 +1,1 @@
+select * FROM EMP WHERE ROUND(SAL/30) > 100;

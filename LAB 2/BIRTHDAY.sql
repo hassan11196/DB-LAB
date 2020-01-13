@@ -1,0 +1,1 @@
+select TO_CHAR(SYSDATE,'YYYY') - '1999' from DUAL ;

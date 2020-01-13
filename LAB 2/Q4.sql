@@ -1,0 +1,1 @@
+select ENAME,JOB,SAL*12  from EMP ;

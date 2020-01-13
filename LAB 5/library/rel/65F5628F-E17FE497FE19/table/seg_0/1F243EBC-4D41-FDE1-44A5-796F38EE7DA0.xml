@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F243EBC-4D41-FDE1-44A5-796F38EE7DA0" name="Transactions">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>BCE65061-F730-DB60-1EE4-53337D2221B5</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="B7472534-D253-B44D-9BE8-C1E74D11D5A5">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>AE19931F-7387-2DB3-16CE-7A630EC2A4D9</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patron_id" id="7E849D0C-0183-8821-90AD-87C76C72F19C">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>E0BFBF12-362E-7DBB-43C1-64E895B945FC</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_id" id="8FD04F2F-7236-576E-5ACB-4187E253F5A7">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>8B7A23E7-D61E-D27B-2449-F1CF459D4838</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="CA2682E6-6AF8-8024-75B7-E6BDA4B76D84">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>810AA061-E1E4-CFE4-D080-44A42E1D7D2D</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tranaction_type" id="9AB17DCB-92E7-6A6C-CE66-C9CC7A17FE1D">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>E3E731FE-DBFA-8673-A7C3-9E4B4AAB1C3A</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_id1" id="86F3A60D-54F8-1C83-C662-402DB51175DF">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>365C6A61-A02B-FDB8-A9D7-6099072C6333</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patron_id1" id="6E0535A1-72F8-CDD2-097A-210B71D1D6A8">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>5004E3EF-67B1-7DB3-782B-26529DE58196</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="3D0D038D-86C3-6FA3-5991-2816FD44DC83">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>074EC5F5-9C49-C0C3-468E-AA4B6558537A</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39B62889-7A2A-648B-C49C-DA2C6CF71008" referredColumn="26D11DE2-72E8-2B8D-64D2-E0CD13B3C725"/>
+</associations>
+</Column>
+<Column name="Patron_patron_id" id="AE923A96-7C35-80D1-9C15-B1699EF7AC8D">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>88A271DE-CC8A-7725-6F60-82BA83C173FE</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92E26955-BDB6-76F6-FBF2-A44280298CA4" referredColumn="A2B08C12-DB3B-22AD-76CB-FDAFBB27B605"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDB6BA92-9D04-F9A7-B965-9E60A03BE9EC" name="Transactions_PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>DECF55E5-C792-D92C-084D-D3949E916C99</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7472534-D253-B44D-9BE8-C1E74D11D5A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5C87771-0F28-8AD3-D954-A67DC5D0B9DB" name="Transactions_Books_FK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>49E56A86-E5F7-41E4-0043-654419232F91</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0D038D-86C3-6FA3-5991-2816FD44DC83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F49273D-3414-2810-4F12-A23DC461BC4F" name="Transactions_Patron_FK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:14:32 UTC</createdTime>
+<generatorID>516D9E10-06B0-BC92-B603-DBF5844F6D55</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE923A96-7C35-80D1-9C15-B1699EF7AC8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

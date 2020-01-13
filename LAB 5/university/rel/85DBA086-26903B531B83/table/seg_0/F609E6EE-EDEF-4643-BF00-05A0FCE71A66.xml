@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F609E6EE-EDEF-4643-BF00-05A0FCE71A66" name="Grade_report">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>D6975A76-0C4E-CC54-8907-E258D2381994</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="letter_grade" id="8DD97DA2-33A1-4C56-A09B-ECE765AD9B80">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>C6FB1D2F-EAEB-718F-8FD3-54A3FE3C517E</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeric_grade" id="5A463E0A-9412-346F-69AC-5BB6AAEA355B">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>092B0611-7E7B-F591-335B-EAAE728EACD5</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>80343CCA-E7DB-A3A2-9119-B0F4FCBAC7E2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="section" id="BD5BD2E6-1513-E1C0-BB98-3C53D794609A">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>859C11F6-E8BA-0838-5403-2FBC2712A400</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_student_number" id="AD87F6FE-A28A-59B8-346A-8F596EDDA85C">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>8CF77AC0-4473-AE8C-C1CE-54D4B4E83D26</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74EE812B-468B-4618-9423-A24907DCE736" referredColumn="9938F83D-A03E-A558-1415-DAB03CDC73E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9648868-E242-DA5E-729D-BD6CEBD00524" name="Grade_report_Student_FK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:51 UTC</createdTime>
+<generatorID>C230E314-5FF8-A332-8030-22957AC1CBDE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD87F6FE-A28A-59B8-346A-8F596EDDA85C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

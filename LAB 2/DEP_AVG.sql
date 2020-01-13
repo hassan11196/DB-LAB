@@ -1,0 +1,3 @@
+select DEPTNO,AVG(SAL) FROM EMP GROUP BY deptno;
+
+select DEPTNO,COUNT(*) FROM EMP GROUP BY deptno;

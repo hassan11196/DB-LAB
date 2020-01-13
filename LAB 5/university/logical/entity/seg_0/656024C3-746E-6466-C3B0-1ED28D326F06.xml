@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656024C3-746E-6466-C3B0-1ED28D326F06" name="Department">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:00 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dep_name" id="190A614B-9347-B661-52B3-9F68A275F2D0">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dep_code" id="DBE22FD6-EEB2-4727-C21B-90C4902BA78A">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="office_number" id="8898511E-8E8E-1004-E00D-A4C8044C8042">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="office_phone_number" id="D426A816-04DB-DE33-B234-5D81CB723013">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="college" id="91377229-1072-8F02-5389-D3FDE6A0FF30">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:43:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB68EDCC-AA61-5C9D-6491-52025F1EA678" name="Department PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:44:46 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBE22FD6-EEB2-4727-C21B-90C4902BA78A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

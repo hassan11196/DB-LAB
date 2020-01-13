@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCE65061-F730-DB60-1EE4-53337D2221B5" name="Transactions">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:14 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction_id" id="AE19931F-7387-2DB3-16CE-7A630EC2A4D9">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:26 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id" id="E0BFBF12-362E-7DBB-43C1-64E895B945FC">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:26 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id" id="8B7A23E7-D61E-D27B-2449-F1CF459D4838">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:26 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_date" id="810AA061-E1E4-CFE4-D080-44A42E1D7D2D">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:26 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tranaction_type" id="E3E731FE-DBFA-8673-A7C3-9E4B4AAB1C3A">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:26 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id1" id="365C6A61-A02B-FDB8-A9D7-6099072C6333">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:27 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id1" id="5004E3EF-67B1-7DB3-782B-26529DE58196">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:04:27 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id2" id="074EC5F5-9C49-C0C3-468E-AA4B6558537A">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:11:10 UTC</createdTime>
+<generatorID>49E56A86-E5F7-41E4-0043-654419232F91</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<referedAttribute>B3496A99-3CBE-4B45-6FA4-68616A021479</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patron_id2" id="88A271DE-CC8A-7725-6F60-82BA83C173FE">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:12:34 UTC</createdTime>
+<generatorID>516D9E10-06B0-BC92-B603-DBF5844F6D55</generatorID>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<referedAttribute>B20AF8B6-3EB9-973A-6D7B-F9C2038ABE33</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DECF55E5-C792-D92C-084D-D3949E916C99" name="Transactions PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:06:18 UTC</createdTime>
+<ownerDesignName>library</ownerDesignName>
+<engineerTo>
+<item key="65F5628F-3FF6-640C-50BB-E17FE497FE19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE19931F-7387-2DB3-16CE-7A630EC2A4D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

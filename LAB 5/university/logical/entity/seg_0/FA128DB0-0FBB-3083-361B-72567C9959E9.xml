@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA128DB0-0FBB-3083-361B-72567C9959E9" name="Student">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:38 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="915D3E61-5A52-CEF7-6B19-535D6D5187DB">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:53 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_number" id="3FEA823D-9EF7-ADA2-1953-7473BAECD010">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:53 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ssn" id="CF563234-BFC0-00B3-20C1-BF7FBABBD5C6">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:53 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7F224E10-2785-C65D-0AAE-263CA8B35F38</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current_address" id="9CA600C4-722D-D54A-4F9B-FC770C406CF4">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:54 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1FF7B32-6F61-9FC7-E2CD-2DF48320E2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="currrent_phone_number" id="4592B9F7-EE4D-B15B-8EA2-FD7DA0BD9D4C">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:54 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>115</dataTypePrecision>
+<ownDataTypeParameters>,115,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="permanaet_address" id="438FEF63-8D1F-6F34-3FCD-A752F79134A7">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:32:54 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1FF7B32-6F61-9FC7-E2CD-2DF48320E2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="permenant_phone_number" id="44E70EEA-B0C5-870A-CCCF-8F207A81418D">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:35:28 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthdate" id="8366DA13-A351-0991-B442-7F3A27310140">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:35:29 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="650DA652-E993-E3F7-26A0-B40361753B99">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:35:29 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class" id="88A974A0-2E48-F638-8FAA-AFEF6B4C9323">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:39:04 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>316BD810-C57B-2A7A-D127-23CE4B5ED5A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="degree" id="0FEE02D7-8502-5F80-AD7B-8DC5DFCC5015">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:39:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="major_department" id="5C224E76-1597-BCB2-978A-F4AEAE1314B1">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:39:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minor_department" id="AD0A134B-B133-5BA7-E8EA-E61FE871A886">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:42:14 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dep_code" id="1FE1A055-EB74-FF79-8C04-D6474C0557FC">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:56:08 UTC</createdTime>
+<generatorID>7652F587-E9D3-7086-6308-413E004E7E41</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<referedAttribute>DBE22FD6-EEB2-4727-C21B-90C4902BA78A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="88ADF56D-E985-4142-9729-13BDDD4F5455">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:59:32 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE00CBA-53F7-7190-D0A8-E8EE3F6AF1BE" name="Student PK">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:34:41 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FEA823D-9EF7-ADA2-1953-7473BAECD010</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

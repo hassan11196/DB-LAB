@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFE92A7D-6FAE-E724-4305-31A8E8505D34" name="Section">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:45:38 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="instructor" id="75148635-428D-BDF4-433D-481D380B3735">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:48:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semester" id="23B73874-B773-FA4A-4108-07F92E003BEC">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:48:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>86B14134-70C5-1A9B-E487-019ACE21727D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="4382A481-E49B-8FEF-76CD-C161BD50B128">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:48:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="section_number" id="1586E968-7B2E-F6B3-13E3-587D39094AD3">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:48:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F769F33E-9167-27F2-C898-B4A8AEA69E0B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_number" id="2A24B4CE-E04A-F1DE-D30F-EFBA9AA3E88F">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 07:55:26 UTC</createdTime>
+<generatorID>48765FF2-677F-5A51-5663-7C1186FA06EF</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<referedAttribute>2608D2F1-EA57-59D1-7F49-E5FF7C3469FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_number" id="54929EBF-9799-BE1C-B7ED-954A563AE5F8">
+<createdBy>k173654</createdBy>
+<createdTime>2019-10-01 08:01:43 UTC</createdTime>
+<generatorID>3AC1C0F8-52FB-1828-4618-1F3A42D17FDC</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="85DBA086-D62F-122D-B451-26903B531B83" value="true"/>
+</engineerTo>
+<referedAttribute>3FEA823D-9EF7-ADA2-1953-7473BAECD010</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
